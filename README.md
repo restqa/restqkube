@@ -2,7 +2,11 @@
 
 > An Awesome Cucumber library providing ready to use steps to test the state of your Kubernetes Cluster
 
-## What is RestqAPI ?
+---
+## `Currently a POC that just managed the namespace resource... Give us a start if you feel that you want more features ⭐️`
+---
+
+## What is RestQkube ?
 
 RestQkube is a part of the [RestQA](https://restqa.io) ecosystem.
 In order to add regression test to your Kubernetes cluster  through automation, RestQkube is proving an awesome bootstrap for you to kick in within a few minute.
