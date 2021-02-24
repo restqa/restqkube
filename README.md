@@ -3,7 +3,7 @@
 > An Awesome Cucumber library providing ready to use steps to test the state of your Kubernetes Cluster
 
 ---
-## `Currently a POC that just managed the namespace resource... Give us a start if you feel that you want more features ⭐️`
+### `This is still at POC stage it currently manage checks on namespaces only... Give us a start if you feel that you want more features ⭐️`
 ---
 
 ## What is RestQkube ?
