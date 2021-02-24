@@ -1,0 +1,63 @@
+{
+  "name": "@restqa/restqkube",
+  "version": "0.0.1",
+  "description": "Kubernetes Functional Test engine based on Gerkin - RestQa",
+  "main": "src/restqkube/index.js",
+  "scripts": {
+    "doc": "jsdoc2md  --partial docs/support/scope.hbs --partial docs/support/header.hbs --files src/restqkube/steps/**/index.js > docs/steps-catalog.md",
+    "start:example": "cucumber-js --require ./src/setup-example.js sample-project/",
+    "test": "jest",
+    "test:watch": "jest --watch --coverage",
+    "test:coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "@kubernetes/client-node": "^0.14.0",
+    "@restqa/restqa-plugin-bootstrap": "0.0.4",
+    "cucumber": "^6.0.5"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 2017
+    }
+  },
+  "jest": {
+    "projects": [
+      {
+        "displayName": "test"
+      },
+      {
+        "runner": "jest-runner-eslint",
+        "displayName": "lint",
+        "testMatch": [
+          "<rootDir>/src/**/*.js"
+        ]
+      }
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "jest": "^26.6.3",
+    "jest-runner-eslint": "^0.10.0",
+    "jsdoc-to-markdown": "^6.0.1",
+    "nodemon": "^2.0.7"
+  },
+  "keywords": [
+    "k8s",
+    "kubernetes",
+    "restkube",
+    "test",
+    "cucumber",
+    "restqa",
+    "gherkin"
+  ],
+  "author": "Olivier Rodomond",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/restqa/restqkube/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/restqa/restqkube.git"
+  },
+  "homepage": "https://github.com/restqa/restqkube#readme"
+}
