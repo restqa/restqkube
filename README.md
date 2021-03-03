@@ -1,9 +1,9 @@
-# RestQkube
+# RestQkube 🦏
 
-> An Awesome Cucumber library providing ready to use steps to test the state of your Kubernetes Cluster
+> An Awesome Cucumber library providing ready to use steps definition to run regression testing on your Kubernetes Cluster.
 
 ---
-### `This is still at POC stage it currently manage checks on namespaces only... Give us a start if you feel that you want more features ⭐️`
+### `This is still at a beta phase. It currently manage test namespaces resources only... Give us a start if you want more ^^ ⭐️`
 ---
 
 ## What is RestQkube ?
