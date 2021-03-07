@@ -12,6 +12,12 @@ RestQkube is a part of the [RestQA](https://restqa.io) ecosystem.
 In order to add regression test to your Kubernetes cluster  through automation, RestQkube is proving an awesome bootstrap for you to kick in within a few minute.
 Based on [cucumber-js](https://github.com/cucumber/cucumber-js), the library expand the number of defined step on one of your current automation project based on cucumber-js.
 
+### Video Demo
+
+Click on the image below to access to the video
+
+[![](http://img.youtube.com/vi/Ff3UeKg6msw/0.jpg)](http://www.youtube.com/watch?v=Ff3UeKg6msw "")
+
 ## Requirements
 
 * Node.js >= 12
