@@ -59,7 +59,7 @@ const options = {
   }
 }
 
-const rQkube = new RestQkube(config)
+const rQkube = new RestQkube(options)
 
 rQkube.setParameterType(defineParameterType)
 rQkube.setSteps({ Given, When, Then })
